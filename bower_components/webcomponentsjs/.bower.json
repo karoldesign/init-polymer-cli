@@ -29,6 +29,6 @@
     "commit": "1ca4128b3c4f040a6ad833c783525765fc25ac5f"
   },
   "_source": "https://github.com/webcomponents/webcomponentsjs.git",
-  "_target": "^v1.1.0",
+  "_target": "^1.0.0",
   "_originalSource": "webcomponents/webcomponentsjs"
 }

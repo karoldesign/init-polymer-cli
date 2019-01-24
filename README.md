@@ -1,50 +1,25 @@
+# \<init-polymer-cli\>
 
-Iniciando en el mundo de los polyfills
-================
 
-## POLYMER-CLI
+## Install the Polymer-CLI
 
-> **Note**. En este proyecto inicio en el mundo de los polyfills (siento la mezcla de idiomas)
-
-## ¿Cómo utilizarlo?
-Lo primero que hice fue:
-
-> **Note**. Recuerda instalar Node y npm
-
-```bash
-npm install -g bower
-bower init
-```
-
-Después cree el index.html
-
-### Install Polymer
-
-```bash
-npm i @polymer/polymer
-npm init
-npm i
-```
-
-link: https://github.com/Polymer/polymer
-
-### Using Polymer
-
-```html
-bower install --save Polymer/polymer#^2.0.0
-bower install --save webcomponents/webcomponentsjs
-
+First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
 
 ```
-
-### Levantar localhost
-
-```bash
-sudo npm i -g http-server
+$ npm install -g bower
+$ npm install -g polymer-cli
 ```
 
-y para arrancar en localhost
+## Viewing Your Element
 
-```bash
-http-server
 ```
+$ polymer serve
+```
+
+## Running Tests
+
+```
+$ polymer test
+```
+
+Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
