@@ -1,0 +1,22 @@
+{
+  "name": "init-polymer-cli",
+  "version": "1.0.0",
+  "description": "inicio a polymer-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karoldesign/init-polymer-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karoldesign/init-polymer-cli/issues"
+  },
+  "homepage": "https://github.com/karoldesign/init-polymer-cli#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.1.0"
+  }
+}

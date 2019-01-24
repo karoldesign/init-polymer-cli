@@ -1,0 +1,21 @@
+{
+  "name": "init-polymer-cli",
+  "homepage": "https://github.com/karoldesign/init-polymer-cli",
+  "description": "",
+  "main": "",
+  "authors": [
+    "https://github.com/karoldesign"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.0",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#^2.2.4"
+  }
+}
